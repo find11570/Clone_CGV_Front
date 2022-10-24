@@ -1,4 +1,4 @@
-# CGV_Clone_Front
+# Clone_CGV_Front
 
 2022년 1학기 고급웹프로그래밍 텀프로젝트 : CGV 클론 코딩 Front 코드입니다.
 

@@ -1,0 +1,177 @@
+.main-movie-list {
+    background-color: #D3D3D3;
+}
+
+.main-movie-container {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+
+.main-movie-container #main-movie-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+}
+
+.default-movie-view {
+    display: block;
+}
+
+.default-movie-none {
+    display: none;
+}
+
+.default-event-view {
+    display: block;
+    width: 400px;
+}
+
+.default-event-none {
+    display: none;
+}
+
+.left-btn {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: -35px;
+    font-weight: bold;
+    z-index: 1;
+    color: black;
+    background-color: #F8F8FF;
+    border-radius: 50%;
+    text-align: center;
+    top: 25px;
+    left: 100px;
+    opacity: 0.8;
+}
+
+.right-btn {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: -35px;
+    font-weight: bold;
+    z-index: 1;
+    color: black;
+    background-color: #F8F8FF;
+    border-radius: 50%;
+    text-align: center;
+    top: 25px;
+    right: 100px;
+    opacity: 0.8;
+}
+
+.main-event {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main-event-container {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+
+.main-event-container #main-event-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+}
+
+.event {
+    width: 100%
+}
+
+.event-img-scale {
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.eventImg {
+    width: 100%;
+    max-width: 100%;
+    transition-duration: 0.5s;
+}
+
+.eventImg:hover {
+    transform: scale(1.1);
+}
+
+.event-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.event-period {
+    color: #808080;
+}
+
+#carousel {
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+}
+
+.movie-content {
+    padding-top: 3%;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+}
+
+.btn_allView {
+    margin-left: 65%;
+    padding: 4px 32px 4px 15px;
+    font-size: 14px;
+    color: #222;
+    line-height: 1.429em;
+    background: transparent url(https://img.cgv.co.kr/R2014/images/common/ico/arrowR_8x13.png) calc(100% - 7px) center/8px 13px scroll no-repeat;
+    border: 1px solid #e2e2e2;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 0 rgb(0 0 0 / 5%);
+}
+
+.content-title {
+    padding-left: 15%;
+    padding-bottom: 1.5%;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+    color: #222;
+}
+
+#movie-slide {
+    margin-left: -5%;
+    max-width: 1480px;
+    max-height: 720px;
+    text-align: center;
+    justify-content: center;
+    /* 좌우 기준 중앙정렬 */
+}
+
+@media (max-width: 768px) {
+    .main-movie-container #main-movie-box {
+        min-width: 427px;
+        flex-wrap: wrap;
+    }
+    .main-event-container #main-event-box {
+        min-width: 427px;
+        flex-wrap: wrap;
+    }
+    .default-event-view {
+        width: 48%;
+    }
+    .default-event-view:nth-child(3) {
+        display: none;
+    }
+}

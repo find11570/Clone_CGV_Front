@@ -1,0 +1,199 @@
+ .table-container {
+     width: 50%;
+     margin: 0 auto;
+ }
+ 
+ .theater {
+     width: 100%;
+     margin: 70px auto;
+ }
+ 
+ .theater-title {
+     align-items: center;
+     justify-items: center;
+     height: 41px;
+     margin: 30px 0 15px;
+     background: url(https://img.cgv.co.kr/r2014/images/common/bg/bg_h3_line.jpg) repeat-x 0 50%;
+     line-height: 41px;
+     text-align: center;
+     font-weight: 500;
+     margin-block-start: 1em;
+     margin-block-end: 1em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+ }
+ 
+ .theater-tit h4 {
+     font-size: 29px;
+     text-align: left;
+     font-weight: bold;
+     color: #000;
+ }
+ 
+ .wrap-theaterinfo {
+     position: relative;
+ }
+ 
+ .wrap-theaterinfo .box-image {
+     width: 980px;
+     height: 420px;
+ }
+ 
+ .thumb-image {
+     display: block;
+     position: relative;
+ }
+ 
+ .wrap-theaterinfo .box-image .thumb-image>img {
+     width: 950px;
+     height: 420px;
+ }
+ 
+ .wrap-theaterinfo .box-contents3 {
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 890px;
+     padding: 20px 30px;
+     background: url(https://img.cgv.co.kr/R2014/images/common/bg/bg_dim80.png) 0 0 repeat;
+     color: #fdfcf0;
+ }
+ 
+ .wrap-theaterinfo .theater-info {
+     position: relative;
+     float: left;
+     width: 608px;
+ }
+ 
+ .wrap-theaterinfo .theater-info .title {
+     padding-top: 10px;
+     width: 400px;
+     color: #fdfcf0;
+     font-size: 13px;
+     text-overflow: initial;
+     white-space: initial;
+ }
+ 
+ .wrap-theaterinfo .theater-info .txt-info {
+     float: left;
+     width: 409px;
+     height: 70px;
+     padding-top: 14px;
+     color: #fdfcf0;
+     line-height: 1.6;
+ }
+ 
+ .wrap-theaterinfo .theater-info .txt-info>em {
+     display: block;
+     width: 100%;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     overflow: hidden;
+ }
+ 
+ .wrap-theaterinfo .theater-info .txt-info>span {
+     display: block;
+     height: 36px;
+     overflow: hidden;
+ }
+ 
+ .wrap-theaterinfo .theater-info .screentype {
+     position: absolute;
+     right: 10px;
+     top: 8px;
+     width: 180px;
+ }
+ 
+ .header {
+     display: inline-block;
+ }
+ 
+ .movie-data2 {
+     border-top: 2px solid black;
+     border-bottom: 1px solid black;
+ }
+ 
+ .box {
+     width: 90%;
+     margin: 30px auto;
+ }
+ 
+ #name {
+     font-weight: bold;
+     font-size: 1.5rem;
+ }
+ 
+ #detail {
+     font-size: 12px;
+     color: #999;
+ }
+ 
+ .title em {
+     margin-left: 12px;
+ }
+ 
+ .round.lightblue {
+     border: 2px solid #3e82a4;
+     color: #3e82a4;
+ }
+ 
+ .round {
+     line-height: 23px;
+     font-size: 12px;
+     text-align: center;
+     vertical-align: middle;
+     display: inline-block;
+     position: relative;
+ }
+ 
+ em {
+     font-style: normal;
+ }
+ 
+ #show {
+     text-align: center;
+     border: 1px solid skyblue;
+     color: #6495ED;
+ }
+ 
+ .time_seat {
+     margin-top: 30px;
+     margin-left: 20px;
+ }
+ 
+ .info {
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ .starttimebtn {
+     display: flex;
+     margin-top: 20px;
+ }
+ 
+ .am,
+ .pm {
+     width: 100px;
+     height: 60px;
+     text-align: center;
+     border: 1px solid black;
+ }
+ 
+ .ico2-grade {
+     display: inline-block;
+     position: relative;
+     bottom: 15px;
+     width: 21px;
+     height: 21px;
+     background: url(https://img.cgv.co.kr/R2014/images/sprite/sprite_icon.png) no-repeat;
+     font: 0/0 a;
+     zoom: 1;
+ }
+ 
+ .ico2-grade.grade-12 {
+     background-position: -51px 0;
+ }
+ 
+ .am {
+     cursor: pointer;
+ }

@@ -1,0 +1,60 @@
+.mycgv-container {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#my-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F8F8F8;
+}
+
+#my-box {
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+
+#my-box>h2 {
+    display: inline;
+}
+
+#my-ticket-container {
+    width: 100%;
+    margin: 10% auto;
+}
+
+#my-ticket-container>h3 {
+    display: inline;
+}
+
+#my-ticket-container>span,
+{
+    float: right;
+    font-size: 0.8em;
+    line-height: 27px;
+}
+
+#my-ticket-info {
+    font-size: 16px;
+    border: 1px solid rgb(92, 92, 92);
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#my-ticket-info>div>p {
+    font-size: 14px;
+}
+
+@media (max-width: 630px) {
+    #my-ticket-container>span,
+    #my-ticket-cancel-container>span {
+        display: none;
+    }
+}

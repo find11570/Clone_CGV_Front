@@ -1,0 +1,11 @@
+#review-box-each {
+    width: 49%;
+    height: 150px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 1px;
+}
+
+#review-box-each > div {
+    margin-left: 20px;
+}

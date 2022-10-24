@@ -1,0 +1,33 @@
+.navbar {
+    border-top: 1px solid lightgray;
+    border-bottom: 4px solid red;
+}
+
+.navbar-box {
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-item-blank {
+    width: 20%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItem {
+    text-decoration-line: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.navItem-ticket {
+    text-decoration-line: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fb4357;
+}

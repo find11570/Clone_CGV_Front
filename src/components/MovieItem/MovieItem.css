@@ -1,0 +1,48 @@
+a {
+    cursor: pointer;
+}
+
+.rankRed {
+    display: block;
+    height: 28px;
+    margin-bottom: 4px;
+    background: #FB4357;
+    color: #ffffff;
+    font-size: 19px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.movie-item {
+    margin: 20px;
+}
+
+.movie-box {
+    background-color: #ffd4dd;
+    width: 30%;
+    height: 400px;
+    margin: 1.5%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#no-box {
+    background-color: #FB4357;
+    margin: 3px;
+    color: white;
+    font-weight: bolder;
+    padding: 3px;
+}
+
+#movie-img {
+    width: 90%;
+    height: 65%;
+    margin: 0 auto;
+}
+
+.movie-box .text {
+    font-size: 0.8em;
+    text-align: left;
+    margin-left: 15px;
+    padding: 5px;
+}

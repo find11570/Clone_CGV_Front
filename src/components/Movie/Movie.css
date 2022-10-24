@@ -1,0 +1,291 @@
+ h3 {
+     display: inline-block;
+     position: relative;
+     height: inherit;
+     margin: 0;
+     background-image: none;
+     color: #222;
+     font-weight: 500;
+     font-size: 36px;
+     text-align: left;
+     vertical-align: middle;
+ }
+ 
+ .title {
+     font-weight: bold;
+     color: #333;
+     font-size: 15px;
+ }
+ 
+ .title-wrap {
+     font-weight: 400;
+     position: relative;
+     height: 60px;
+     padding-top: 30px;
+     border-bottom: 3px solid #241d1e;
+ }
+ 
+ .movie-container {
+     width: 50%;
+     margin: 0 auto;
+ }
+ 
+ .movie-container #movie-big-box {
+     /* background-color: #ffd4dd; */
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     margin: 0 auto;
+     margin-bottom: 30px;
+ }
+ 
+ #select-box {
+     margin: 10px;
+     border: 1px solid #e2dcdd;
+     padding: 4px;
+ }
+ 
+ .sort-chart {
+     margin-top: 2%;
+ }
+ 
+ select {
+     line-height: 27px;
+     height: 29px;
+     border: 1px solid #b4b3aa;
+     margin-right: 1%;
+ }
+ 
+ .btn_familysite {
+     border: 2px solid #444;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     width: 36px;
+     height: 29px;
+     margin-left: -1px;
+     font-size: 14px;
+     color: #444;
+     line-height: 1.429em;
+     background-color: #fff;
+     vertical-align: top;
+ }
+ 
+ #header_keyword {
+     height: 25px;
+ }
+ 
+ .totalSearch_wrap {
+     display: inline-flex;
+     right: 0;
+     top: 7px;
+     padding: 0 30px 0 10px;
+ }
+ 
+ .totalSearch_wrap .btn_totalSearch {
+     display: block;
+     margin-left: 2%;
+     top: 0px;
+     width: 30px;
+     height: 30px;
+     border: 0 none;
+     background: transparent url(https://img.cgv.co.kr/R2014/images/common/ico/search.png) center center/26px scroll no-repeat;
+ }
+ 
+ ol {
+     display: block;
+     list-style-type: decimal;
+     margin-block-start: 1em;
+     margin-block-end: 1em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+     padding-inline-start: 40px;
+ }
+ 
+ ol>li {
+     display: list-item;
+     list-style: none;
+     text-align: -webkit-match-parent;
+     float: left;
+     width: 197px;
+     margin-left: 64px;
+     padding-bottom: 30px;
+     font-size: 100%;
+     margin: 0;
+     padding: 0;
+     border: 0;
+     vertical-align: baseline;
+     word-break: break-all;
+ }
+ 
+ .rank {
+     display: block;
+     height: 28px;
+     margin-bottom: 4px;
+     background: #333333;
+     color: #ffffff;
+     font-size: 19px;
+     text-align: center;
+     line-height: 28px;
+ }
+ 
+ strong {
+     font-weight: 500;
+ }
+ 
+ .box-contents {
+     height: 93px;
+ }
+ 
+ .score {
+     display: inline-block;
+     margin-top: 7px;
+     font-size: 11px;
+ }
+ 
+ .txt-info {
+     margin-top: 3px;
+     height: 13px;
+     color: #666666;
+     font-weight: 500;
+     white-space: nowrap;
+     display: block;
+     color: #999999;
+     font-size: 12px;
+ }
+ 
+ .like {
+     text-align: left;
+     display: block;
+     margin-top: 10px;
+ }
+ 
+ .box-image {
+     position: relative;
+     width: 197px;
+     min-height: 272px;
+     margin-bottom: 10px;
+ }
+ 
+ .thumb-image {
+     display: block;
+     position: relative;
+ }
+ 
+ .thumb-image>img {
+     height: 260px;
+ }
+ 
+ .box-image img {
+     width: 100%;
+ }
+ 
+ input,
+ select,
+ img {
+     vertical-align: middle;
+ }
+ 
+ element.style {}
+ 
+ .ico-grade.grade-12 {
+     background-position: -51px 0;
+ }
+ 
+ .ico-grade {
+     display: block;
+     position: absolute;
+     left: 5px;
+     top: 5px;
+     width: 21px;
+     height: 21px;
+     background: url(https://img.cgv.co.kr/R2014/images/sprite/sprite_icon.png) no-repeat;
+     font: 0/0 a;
+     zoom: 1;
+ }
+ 
+ .ico-grade.grade-12 {
+     background-position: -51px 0;
+ }
+ 
+ .ico-grade.grade-15 {
+     background-position: -72px 0;
+ }
+ 
+ .ico-grade.grade-all {
+     background-position: -30px 0;
+ }
+ 
+ .wrap-movie-chart .box-contents {
+     height: 93px;
+ }
+ 
+ .box-contents>a {
+     display: block;
+ }
+ 
+ a {
+     color: inherit;
+     text-decoration: none;
+ }
+ 
+ .score .percent {
+     vertical-align: middle;
+ }
+ 
+ strong {
+     font-weight: 500;
+ }
+ 
+ .score .egg-gage {
+     display: inline-block;
+     margin-top: -10px;
+     margin-left: 2px;
+     padding-left: 6px;
+     background: url(https://img.cgv.co.kr/R2014/images/common/bg/bg_writeinfo.gif) 0 12px no-repeat;
+ }
+ 
+ .egg-gage.small .egg.great {
+     width: 16px;
+     background-position: -41px -47px;
+ }
+ 
+ .egg-gage.small .egg {
+     display: inline-block;
+     margin-right: 2px;
+     width: 18px;
+     height: 26px;
+     background: url(https://img.cgv.co.kr/R2014/images/sprite/sprite_egg.png) no-repeat 0 -47px;
+     vertical-align: middle;
+ }
+ 
+ .egg-gage.small .percent {
+     display: inline-block;
+     margin-top: 8px;
+     font-family: 'verdana';
+     font-size: 12px;
+     color: #000000;
+     vertical-align: middle;
+ }
+ 
+ .like .link-reservation {
+     width: 97px;
+     height: 25px;
+     background: url(https://img.cgv.co.kr/R2014/images/sprite/sprite_preegg.png) 0 -110px no-repeat !important;
+ }
+ 
+ .link-reservation {
+     display: inline-block;
+     font: 0/0 a;
+     zoom: 1;
+     vertical-align: top;
+ }
+ 
+ .movie-item {
+     margin: 100px;
+ }
+ 
+ #detail-review {
+     width: 50%;
+     height: 50%;
+ }

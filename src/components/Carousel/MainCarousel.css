@@ -1,0 +1,17 @@
+.carouselWrapper {
+    width: 70vw;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 0;
+    background-color: black;
+}
+
+.logo {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .carouselWrapper {
+        width: 100%;
+    }
+}
